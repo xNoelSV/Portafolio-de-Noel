@@ -1,0 +1,56 @@
+/* Fonts */
+
+@font-face {
+    font-family: "fuenteTitulos";
+    src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "fuenteLinks";
+    src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Bold.ttf");
+}
+
+/* General classes */
+
+#ImgFullPantalla {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Titulo {
+    font-family: "fuenteTitulos";
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+/* Header */
+
+#strokeRoundImage {
+    border: 3px solid #d4e4ff;
+    border-radius: 50%;
+}
+
+.nav-link {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: #4682A9;
+}
+
+.navbar-brand {
+    font-family: "fuenteTitulos";
+}
+
+/* Section 1: Presentation */
+
+#sec-presentation {
+    min-height: 720px;
+    max-height: 1080px;
+    height: 100vh;
+    background-color: #4682A9;
+}
