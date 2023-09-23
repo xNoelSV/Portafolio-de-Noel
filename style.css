@@ -46,11 +46,28 @@
     font-family: "fuenteTitulos";
 }
 
+.border-hide {
+    border-top: none !important;
+}
+
+@media (max-width: 991.5px) {
+    .border-hide {
+        border-top: 0.5px solid gray !important;
+    }
+}
+
 /* Section 1: Presentation */
 
 #sec-presentation {
-    min-height: 720px;
-    max-height: 1080px;
+    max-width: 120rem;
     height: 100vh;
     background-color: #4682A9;
+}
+
+/* Section 2: About me */
+
+#sec-about {
+    max-width: 120rem;
+    height: 100vh;
+    background-color: #bce4ff;
 }
