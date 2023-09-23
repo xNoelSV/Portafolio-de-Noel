@@ -23,14 +23,21 @@
     word-spacing: 0.5px;
 }
 
-#responsiveButton {
+.responsiveButton {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 1.3vw;
     font-family: "SansPro_semibold";
+    background-color: #005376;
+    border-color: transparent;
 }
+.responsiveButton:hover {
+    background-color: #3982a1;
+    border-color: transparent;
+}
+
 
 /* Header */
 
@@ -106,28 +113,21 @@
     background-color: #bce4ff;
 }
 
-/* Section 3: Specializations */
-
-#sec-specializations {
-    height: 100vh;
-    background-color: #aadcfe;
-}
-
-/* Section 4: Projects */
+/* Section 3: Projects */
 
 #sec-projects {
     height: 100vh;
     background-color: #79c9ff;
 }
 
-/* Section 5: Resume */
+/* Section 4: Resume */
 
 #sec-resume {
     height: 100vh;
     background-color: #35aeff;
 }
 
-/* Section 6: Contact */
+/* Section 5: Contact */
 
 #sec-contact {
     height: 100vh;
@@ -141,13 +141,12 @@
         border-top: 0.5px solid gray !important;
     }
 
-    #responsiveButton {
+    .responsiveButton {
         padding-left: 5%;
         padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: 1.7vw;
-        font-family: "SansPro_semibold";
     }
 }
 
@@ -167,12 +166,11 @@
         font-size: 5vw !important;
     }
 
-    #responsiveButton {
+    .responsiveButton {
         padding-left: 7%;
         padding-right: 7%;
         padding-top: 1.5%;
         padding-bottom: 1.5%;
         font-size: 4vw;
-        font-family: "SansPro_semibold";
     }
 }
