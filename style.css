@@ -1,8 +1,13 @@
 /* Fonts */
 
 @font-face {
-    font-family: "fuenteTitulos";
+    font-family: "SansPro_semibold";
     src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "SansPro_bold";
+    src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Bold.ttf");
 }
 
 @font-face {
@@ -13,9 +18,18 @@
 /* General classes */
 
 .Titulo {
-    font-family: "fuenteTitulos";
+    font-family: "SansPro_semibold";
     letter-spacing: 0.5px;
     word-spacing: 0.5px;
+}
+
+#responsiveButton {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.3vw;
+    font-family: "SansPro_semibold";
 }
 
 /* Header */
@@ -46,17 +60,11 @@
 }
 
 .navbar-brand {
-    font-family: "fuenteTitulos";
+    font-family: "SansPro_semibold";
 }
 
 .border-hide {
     border-top: none !important;
-}
-
-@media (max-width: 991.5px) {
-    .border-hide {
-        border-top: 0.5px solid gray !important;
-    }
 }
 
 /* Section 1: Presentation */
@@ -72,7 +80,22 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+}
+
+#initialText {
+    font-size: 4vw;
+    font-family: "SansPro_semibold";
+    margin: 0px;
+}
+
+#nameText {
+    font-size: 6vw;
+    font-family: "SansPro_bold";
+}
+
+#subnameText {
+    font-size: 2vw;
 }
 
 /* Section 2: About me */
@@ -81,4 +104,75 @@
     max-width: 120rem;
     height: 100vh;
     background-color: #bce4ff;
+}
+
+/* Section 3: Specializations */
+
+#sec-specializations {
+    height: 100vh;
+    background-color: #aadcfe;
+}
+
+/* Section 4: Projects */
+
+#sec-projects {
+    height: 100vh;
+    background-color: #79c9ff;
+}
+
+/* Section 5: Resume */
+
+#sec-resume {
+    height: 100vh;
+    background-color: #35aeff;
+}
+
+/* Section 6: Contact */
+
+#sec-contact {
+    height: 100vh;
+    background-color: #059bff;
+}
+
+/* Responsive */
+
+@media (max-width: 991.5px) {
+    .border-hide {
+        border-top: 0.5px solid gray !important;
+    }
+
+    #responsiveButton {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 1.7vw;
+        font-family: "SansPro_semibold";
+    }
+}
+
+@media (max-width: 735px) {
+    #initialText {
+        font-size: 7vw !important;
+        font-family: "SansPro_semibold";
+        margin: 0px;
+    }
+
+    #nameText {
+        font-size: 11vw !important;
+        font-family: "SansPro_bold";
+    }
+
+    #subnameText {
+        font-size: 5vw !important;
+    }
+
+    #responsiveButton {
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        font-size: 4vw;
+        font-family: "SansPro_semibold";
+    }
 }

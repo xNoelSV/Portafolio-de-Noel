@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body onload="scrollToElement()">
 
     <!-- Header (NavBar) F6F4EB -->
     <header class="fixed-top">
@@ -36,19 +36,19 @@
                 <div class="collapse navbar-collapse text-end justify-content-end" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item border-hide">
-                            <a class="nav-link p-4" href="#">SOBRE MÍ</a>
+                            <a class="nav-link p-4" href="#sec-about">SOBRE MÍ</a>
                         </li>
                         <li class="nav-item border-hide">
-                            <a class="nav-link p-4" href="#">ESPECIALIDADES</a>
+                            <a class="nav-link p-4" href="#sec-specializations">ESPECIALIDADES</a>
                         </li>
                         <li class="nav-item border-hide">
-                            <a class="nav-link p-4" href="#">PROYECTOS</a>
+                            <a class="nav-link p-4" href="#sec-projects">PROYECTOS</a>
                         </li>
                         <li class="nav-item border-hide">
-                            <a class="nav-link p-4" href="#">CURRÍCULUM</a>
+                            <a class="nav-link p-4" href="#sec-resume">CURRÍCULUM</a>
                         </li>
                         <li class="nav-item border-hide">
-                            <a class="nav-link p-4" href="#">CONTACTO</a>
+                            <a class="nav-link p-4" href="#sec-contact">CONTACTO</a>
                         </li>
                         <!-- Language
                         <li class="nav-item">
@@ -74,18 +74,13 @@
         </nav>
     </header>
 
-    <!-- Title 
-    <h1>Primera página</h1>-->
-
-    <!-- Example image
-    <img src="Assets/IMG/jijiji.jpg" class="img-fluid" width="100%">
--->
-
     <!-- SECTION 1: Presentation -->
     <section id="sec-presentation">
         <div class="container" id="sec-presentation_content">
-            <p style="font-size: 7.5vh;">Saludos, soy</p>
-            <p class="fs-1">NOEL SARIÑENA</p>
+            <p id="initialText">Saludos, soy</p>
+            <p id="nameText">NOEL SARIÑENA</p>
+            <p id="subnameText">Full-stack developer lider de varios proyectos personales.</p>
+            <a type="button" class="btn btn-dark mt-2" href="#sec-projects" id="responsiveButton">PROYECTOS</a>
         </div>
     </section>
 
@@ -94,8 +89,25 @@
 
     </section>
 
+    <!-- SECTION 3: Specializations -->
+    <section id="sec-specializations">
 
+    </section>
 
+    <!-- SECTION 4: Projects -->
+    <section id="sec-projects">
+
+    </section>
+
+    <!-- SECTION 5: Resume -->
+    <section id="sec-resume">
+
+    </section>
+
+    <!-- SECTION 5: Contact -->
+    <section id="sec-contact">
+
+    </section>
 
 
 </body>
