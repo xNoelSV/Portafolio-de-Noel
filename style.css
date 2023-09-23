@@ -12,13 +12,6 @@
 
 /* General classes */
 
-#ImgFullPantalla {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .Titulo {
     font-family: "fuenteTitulos";
     letter-spacing: 0.5px;
@@ -27,8 +20,18 @@
 
 /* Header */
 
+#TituloHeader:hover {
+    color: #4682A9;
+    transition: color 0.2s;
+}
+
+#TituloHeader:not(:hover) {
+    color: black;
+    transition: color 0.2s;
+}
+
 #strokeRoundImage {
-    border: 3px solid #d4e4ff;
+    border: 3px solid #4682A9;
     border-radius: 50%;
 }
 
@@ -61,7 +64,15 @@
 #sec-presentation {
     max-width: 120rem;
     height: 100vh;
-    background-color: #4682A9;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23EDEDED' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+#sec-presentation_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /* Section 2: About me */
