@@ -24,7 +24,7 @@ function changeLanguage(language) {
             headerResume: "RESUME",
             headerContact: "CONTACT",
             headerLanguage: "LANGUAGE",
-            about_title: "ABOUT ME"
+            about_title: "ABOUT"
         },
         // More traductions if necessary
     };
