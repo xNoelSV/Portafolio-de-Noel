@@ -11,7 +11,8 @@ function changeLanguage(language) {
             headerProjects: "PROYECTOS",
             headerResume: "CURRÍCULUM",
             headerContact: "CONTACTO",
-            headerLanguage: "IDIOMA"
+            headerLanguage: "IDIOMA",
+            about_title: "SOBRE MÍ"
         },
         en: {
             presentation_btnProjects: "PROJECTS",
@@ -22,7 +23,8 @@ function changeLanguage(language) {
             headerProjects: "PROJECTS",
             headerResume: "RESUME",
             headerContact: "CONTACT",
-            headerLanguage: "LANGUAGE"
+            headerLanguage: "LANGUAGE",
+            about_title: "ABOUT ME"
         },
         // More traductions if necessary
     };
@@ -37,6 +39,7 @@ function changeLanguage(language) {
     const headerResume = document.getElementById("headerResume");
     const headerContact = document.getElementById("headerContact");
     const headerLanguage = document.getElementById("headerLanguage");
+    const about_title = document.getElementById("about_title");
 
     // Verify traduction tag
     if (translations[language]) {
@@ -49,6 +52,7 @@ function changeLanguage(language) {
         headerResume.textContent = translations[language].headerResume;
         headerContact.textContent = translations[language].headerContact;
         headerLanguage.textContent = translations[language].headerLanguage;
+        about_title.textContent = translations[language].about_title;
     }
 }
 
