@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: "fuenteLinks";
-    src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Bold.ttf");
+    font-family: "SansPro_regular";
+    src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Regular.ttf");
 }
 
 /* General classes */
@@ -74,6 +74,10 @@
     border-top: none !important;
 }
 
+.dropdown-item {
+    font-family: "SansPro_regular";
+}
+
 /* Section 1: Presentation */
 
 #sec-presentation {
@@ -90,18 +94,18 @@
     transform: translate(-50%, -50%);
 }
 
-#initialText {
+#presentation_initialText {
     font-size: 4vw;
     font-family: "SansPro_semibold";
     margin: 0px;
 }
 
-#nameText {
+#presentation_nameText {
     font-size: 6vw;
     font-family: "SansPro_bold";
 }
 
-#subnameText {
+#presentation_subnameText {
     font-size: 2vw;
 }
 
