@@ -143,6 +143,10 @@ hr.center-ball {
     font-family: "SansPro_bold";
 }
 
+.about_text {
+    font-family: "SansPro_regular";
+}
+
 /* Section 3: Projects */
 
 #sec-projects {
