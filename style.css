@@ -184,6 +184,10 @@ hr.center-ball {
         font-size: 1.7vw;
     }
 
+    #sec-about {
+        height: 105vh;
+    }
+
     #about_title {
         padding-top: 12%;
         font-size: 4vw;
@@ -195,7 +199,7 @@ hr.center-ball {
 }
 
 /* TABLET */
-@media (max-width: 735px) {
+@media (max-width: 768px) {
     #presentation_initialText {
         font-size: 5vw !important;
         font-family: "SansPro_semibold";
@@ -219,6 +223,10 @@ hr.center-ball {
         font-size: 2.5vw;
     }
 
+    #sec-about {
+        height: 120vh;
+    }
+
     #about_title {
         padding-top: 19%;
         font-size: 6vw;
@@ -226,6 +234,28 @@ hr.center-ball {
 
     .about_title2 {
         font-size: 3vw;
+    }
+
+    #about_text1_3 {
+        margin-bottom: 50px !important;
+    }
+}
+
+/* PANTALLA: 625px */
+@media (max-width: 625px) {
+    #about_subtitle1 {
+        font-size: 5vw;
+    }
+
+    #about_subtitle2 {
+        font-size: 5vw;
+    }
+}
+
+/* PANTALLA: 550px */
+@media (max-width: 625px) {
+    #sec-about {
+        height: 135vh;
     }
 }
 
