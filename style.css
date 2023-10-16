@@ -186,25 +186,29 @@ hr.center-ball {
 
 }
 
-#proj_moustache {
-    background-image: url("Assets/IMG/Moustache.jpg");
+.proj_project {
+    height: 30vh;
+}
+
+.proj_project img {
     background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     height: 30vh;
     transition: filter 0.5s ease-in-out;
+    /*transition: transform 0.3s ease;*/
 }
-#proj_moustache:hover [background-image]{
+.proj_project:hover img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    /*transform: scale(1.2);*/
 }
 
-#proj_moustache p, #proj_moustache .proj_btnMoustache {
+.proj_project p, .proj_project .proj_btn {
     transition: all 0.2s;
     opacity: 0;
+    position: relative;
 }
-
-#proj_moustache:hover p, #proj_moustache:hover .proj_btnMoustache {
+.proj_project:hover p, .proj_project:hover .proj_btn {
     opacity: 1;
 }
 

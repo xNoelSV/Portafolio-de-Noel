@@ -93,7 +93,6 @@
     <section id="sec-about" class="pb-3">
         <p class="titles text-center mb-0" id="about_title">SOBRE MÍ</p>
         <hr class="center-ball">
-        </hr>
         <div class="m-5 p-3">
             <div class="row align-items-start">
                 <div class="col-md m-5" id="about_col1">
@@ -140,25 +139,93 @@
     </section>
 
     <!-- SECTION 3: Projects -->
-    <section id="sec-projects">
+    <section id="sec-projects" class="pb-5">
         <p class="titles text-center mb-0" id="proj_title">PROYECTOS</p>
         <hr class="center-ball mb-5">
-        </hr>
-        <div class="container-fluid m-0 p-0" id="proj_moustache">
+        <br>
+        
+        <!-- Moustache -->
+        <div class="proj_project container-fluid m-0 p-0" id="proj_moustache">
+            <img src="Assets/IMG/Moustache.jpg" class="img position-absolute">
             <div class="container text-center h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-4">
                         <p class="titles p-0 m-0">MOUSTACHE</p>
                     </div>
                     <div class="col-md-4">
-                        <button class="proj_btn proj_btnMoustache btn btn-primary" id="proj_infoMoustache">Información</button>
+                        <a class="proj_btn btn btn-primary" id="proj_btnRepoMoustache"
+                            href="https://github.com/xNoelSV/Moustache_Noel">REPOSITORIO</a>
                     </div>
                     <div class="col-md-4">
-                        <button class="proj_btn proj_btnMoustache btn btn-primary" id="proj_repoMoustache">Repositorio</button>
+                        <a class="proj_btn btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#proj_moustacheInfo" aria-expanded="true" aria-controls="proj_moustacheInfo"
+                            id="proj_btnInfoMoustache">INFORMACIÓN</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="collapse" id="proj_moustacheInfo">
+            <div class="card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+
+        <!-- Matheorite -->
+        <div class="proj_project container-fluid m-0 p-0" id="proj_matheorite">
+            <img src="Assets/IMG/Moustache.jpg" class="img-fluid position-absolute">
+            <div class="container text-center h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-md-4">
+                        <p class="titles p-0 m-0">MATHEORITE</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="proj_btn btn btn-primary" id="proj_btnRepoMatheorite"
+                            href="https://github.com/xNoelSV/ProyectoMatheorite_Grupo4">REPOSITORIO</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="proj_btn btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#proj_matheoriteInfo" aria-expanded="true"
+                            aria-controls="proj_matheoriteInfo" id="proj_btnInfoMatheorite">INFORMACIÓN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="proj_matheoriteInfo">
+            <div class="card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+
+        <!-- Portafolio -->
+        <div class="proj_project container-fluid m-0 p-0" id="proj_portafolio">
+            <img src="Assets/IMG/Moustache.jpg" class="img-fluid position-absolute">
+            <div class="container text-center h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-md-4">
+                        <p class="titles p-0 m-0">PORTAFOLIO</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="proj_btn btn btn-primary" id="proj_btnRepoPortafolio"
+                            href="https://github.com/xNoelSV/Portafolio-de-Noel">REPOSITORIO</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="proj_btn btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#proj_portafolioInfo" aria-expanded="true"
+                            aria-controls="proj_portafolioInfo" id="proj_btnInfoPortafolio">INFORMACIÓN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collapse" id="proj_portafolioInfo">
+            <div class="card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+
+
     </section>
 
     <!-- SECTION 4: Contact -->

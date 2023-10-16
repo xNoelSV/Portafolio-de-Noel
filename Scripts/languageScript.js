@@ -19,7 +19,13 @@ function changeLanguage(language) {
             about_text1_3: "Estoy abierto a oportunidades laborales en las que pueda contribuir, aprender y crecer. Si tienes una buena oportunidad que coincida con mis habilidades, no dudes en ",
             about_text1_3_link: "contactarme.",
             about_btnCurriculum: "MI CURRÍCULUM",
-            proj_title: "PROYECTOS"
+            proj_title: "PROYECTOS",
+            proj_btnRepoMoustache: "REPOSITORIO",
+            proj_btnInfoMoustache: "INFORMACIÓN",
+            proj_btnRepoMatheorite: "REPOSITORIO",
+            proj_btnInfoMatheorite: "INFORMACIÓN",
+            proj_btnRepoPortafolio: "REPOSITORIO",
+            proj_btnInfoPortafolio: "INFORMACIÓN"
         },
         en: {
             presentation_btnProjects: "PROJECTS",
@@ -38,7 +44,13 @@ function changeLanguage(language) {
             about_text1_3: "I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills then don't hesitate to ",
             about_text1_3_link: "contact me.",
             about_btnCurriculum: "MY RESUME",
-            proj_title: "PROJECTS"
+            proj_title: "PROJECTS",
+            proj_btnRepoMoustache: "REPOSITORY",
+            proj_btnInfoMoustache: "INFORMATION",
+            proj_btnRepoMatheorite: "REPOSITORY",
+            proj_btnInfoMatheorite: "INFORMATION",
+            proj_btnRepoPortafolio: "REPOSITORY",
+            proj_btnInfoPortafolio: "INFORMATION"
         },
         // More traductions if necessary
     };
@@ -65,6 +77,12 @@ function changeLanguage(language) {
     const about_btnCurriculum = document.getElementById("about_btnCurriculum");
         // Project
     const proj_title = document.getElementById("proj_title");
+    const proj_btnRepoMoustache = document.getElementById("proj_btnRepoMoustache");
+    const proj_btnInfoMoustache = document.getElementById("proj_btnInfoMoustache");
+    const proj_btnRepoMatheorite = document.getElementById("proj_btnRepoMatheorite");
+    const proj_btnInfoMatheorite = document.getElementById("proj_btnInfoMatheorite");
+    const proj_btnRepoPortafolio = document.getElementById("proj_btnRepoPortafolio");
+    const proj_btnInfoPortafolio = document.getElementById("proj_btnInfoPortafolio");
 
     // Verify traduction tag
     if (translations[language]) {
@@ -89,6 +107,12 @@ function changeLanguage(language) {
         about_btnCurriculum.textContent = translations[language].about_btnCurriculum;
         // Project
         proj_title.textContent = translations[language].proj_title;
+        proj_btnRepoMoustache.textContent = translations[language].proj_btnRepoMoustache;
+        proj_btnInfoMoustache.textContent = translations[language].proj_btnInfoMoustache;
+        proj_btnRepoMatheorite.textContent = translations[language].proj_btnRepoMatheorite;
+        proj_btnInfoMatheorite.textContent = translations[language].proj_btnInfoMatheorite;
+        proj_btnRepoPortafolio.textContent = translations[language].proj_btnRepoPortafolio;
+        proj_btnInfoPortafolio.textContent = translations[language].proj_btnInfoPortafolio;
     }
 }
 
