@@ -1,3 +1,4 @@
+/*
 const miDiv = document.getElementById("proj_moustache");
 const botones = miDiv.querySelectorAll(".botonMoustache");
 
@@ -10,3 +11,4 @@ miDiv.addEventListener('mouseleave', () => {
     miDiv.style.filter = 'blur(0)';
     botones.forEach(boton => boton.style.display = 'none');
 });
+*/
