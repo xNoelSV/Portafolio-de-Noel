@@ -234,14 +234,14 @@
         <hr class="center-ball mb-5">
 
         <div class="container-fluid text-center">
-            <div class="row align-items-start m-4">
-                <div class="col"></div>
+            <!--<div class="row m-4">
+                 <div class="col"></div>
                 <div class="col-md-9">
-                    <!-- Contact form -->
+                    Contact form 
                     <div class="row align-items-middle bg-white p-3 rounded"
                         style="border: 2px solid rgb(147, 147, 147);">
                         <div class="col-xl-6 mt-3 mb-3">
-                            <p>One of three columns</p>
+                            <img src="Assets/IMG/FotoMia_contact.JPG" class="img-fluid rounded" id="contact_img">
                             <div class="mt-4" id="about_btns">
                                 <a class="btn btn-primary btn-lg responsiveButton mt-3" id="contact_btnCurriculum"
                                     href="https://drive.google.com/file/d/15dmKw8-354qzYJxFvQzGJeQPpM_WtcTj/view?usp=drive_link"
@@ -249,21 +249,38 @@
                                     CURRÍCULUM</a>
                             </div>
                         </div>
-                        <div class="col-xl-6">
+                        <div class="col-xl-6" id="contact_formuDiv">
                             <hr id="contact_separator">
-                            <form class="mt-3 text-start" action="Scripts/mail.php">
-                                <p>Nombre</p>
-                                <input 
-                                <p>E-mail</p>
-                                <label for="exampleFormControlTextarea1" class="form-label">Comentario:</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              
+                            <p class="mt-3" id="contact_enterData">Introduzca sus datos de contacto</p>
+                            <form class="mt-4 text-start" action="Scripts/mail.php">
+                                <label for="contact_inpName" class="form-label">Nombre y apellidos:</label>
+                                <input type="text" class="form-control mb-3" id="contact_inpName" />
+                                <label for="contact_inpEmail" class="form-label">Dirección electrónica:</label>
+                                <input type="email" class="form-control mb-3" id="contact_inpEmail" />
+                                <label for="contact_inpComent" class="form-label">Comentario:</label>
+                                <textarea class="form-control mb-4" id="contact_inpComent" rows="3"></textarea>
                             </form>
                         </div>
                     </div>
+                </div>-->
+
+            <div class="card mb-3" style="max-width: 90vw;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="..." class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col"></div>
             </div>
+            <!-- <div class="col"></div> 
+            </div>-->
         </div>
     </section>
 

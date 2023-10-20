@@ -15,6 +15,11 @@
     src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Regular.ttf");
 }
 
+@font-face {
+    font-family: "SansPro_light";
+    src: url("Assets/FONTS/SourceSansPro/SourceSansPro-Light.ttf");
+}
+
 /* General classes */
 
 .Titulo {
@@ -185,7 +190,7 @@ hr.center-ball {
 .proj_title {
     color: white;
     text-shadow: 2px 0 #000000, -2px 0 #000000, 0 2px #000000, 0 -2px #000000,
-               1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+        1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
 }
 
 .proj_btn {
@@ -197,15 +202,17 @@ hr.center-ball {
     display: inline-block;
     font-weight: 700;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15);
     transition: transform .3s;
     border: 0px transparent;
     padding: 4%;
 }
+
 .proj_btn:hover {
     background: #6392ff;
     transform: translateY(-3px);
 }
+
 .proj_btn:active {
     background: #6392ff;
 }
@@ -221,18 +228,22 @@ hr.center-ball {
     transition: filter 0.5s ease-in-out;
     /*transition: transform 0.3s ease;*/
 }
+
 .proj_project:hover img {
     filter: grayscale(100%) blur(1rem);
     -webkit-filter: grayscale(100%) blur(0.4rem);
     /*transform: scale(1.2);*/
 }
 
-.proj_project p, .proj_project .proj_btn {
+.proj_project p,
+.proj_project .proj_btn {
     transition: all 0.2s;
     opacity: 0;
     position: relative;
 }
-.proj_project:hover p, .proj_project:hover .proj_btn {
+
+.proj_project:hover p,
+.proj_project:hover .proj_btn {
     opacity: 1;
 }
 
@@ -264,6 +275,16 @@ hr.center-ball {
     visibility: hidden;
 }
 
+#contact_img {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+#contact_enterData {
+    font-size: 2rem;
+    color: #5a5a5a;
+    font-family: "SansPro_light";
+}
+
 /* ---------------------------------------- Responsive ---------------------------------------- */
 
 /* RESPONSIVE XL BOOTSTRAP */
@@ -271,6 +292,11 @@ hr.center-ball {
     #contact_separator {
         margin: auto;
         visibility: visible;
+    }
+
+    #contact_formuDiv {
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
 
@@ -388,4 +414,12 @@ hr.center-ball {
         padding-top: 32.5%;
     }
 
+    #contact_formuDiv {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #contact_enterData {
+        font-size: 1.5rem;
+    }
 }
