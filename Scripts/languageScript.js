@@ -26,7 +26,11 @@ function changeLanguage(language) {
             proj_btnRepoPortafolio: "REPOSITORIO",
             proj_btnInfoPortafolio: "INFORMACIÓN",
             contact_title: "CONTACTO",
-            contact_btnCurriculum: "MI CURRÍCULUM"
+            contact_btnCurriculum: "MI CURRÍCULUM",
+            contact_subtitleForm: "Introduce los datos",
+            contact_labelInpName: "Nombre y apellidos:",
+            contact_labelInpEmail: "Dirección electrónica:",
+            contact_labelInpComent: "Comentario:"
         },
         en: {
             presentation_btnProjects: "PROJECTS",
@@ -52,7 +56,11 @@ function changeLanguage(language) {
             proj_btnRepoPortafolio: "REPOSITORY",
             proj_btnInfoPortafolio: "INFORMATION",
             contact_title: "CONTACT",
-            contact_btnCurriculum: "MY RESUME"
+            contact_btnCurriculum: "MY RESUME",
+            contact_subtitleForm: "Enter the data",
+            contact_labelInpName: "Name and surname:",
+            contact_labelInpEmail: "E-mail:",
+            contact_labelInpComent: "Comments:"
         },
         // More traductions if necessary
     };
@@ -87,6 +95,10 @@ function changeLanguage(language) {
         // Contact
     const contact_title = document.getElementById("contact_title");
     const contact_btnCurriculum = document.getElementById("contact_btnCurriculum");
+    const contact_labelInpName = document.getElementById("contact_labelInpName");
+    const contact_labelInpEmail = document.getElementById("contact_labelInpEmail");
+    const contact_labelInpComent = document.getElementById("contact_labelInpComent");
+    const contact_subtitleForm = document.getElementById("contact_subtitleForm");
 
     // Verify traduction tag
     if (translations[language]) {
@@ -118,7 +130,11 @@ function changeLanguage(language) {
         proj_btnInfoPortafolio.textContent = translations[language].proj_btnInfoPortafolio;
         // Contact
         contact_title.textContent = translations[language].contact_title;
-        contact_btnCurriculum.textContent = translations[language].contact_btnCurriculum;
+        //contact_btnCurriculum.textContent = translations[language].contact_btnCurriculum;
+        contact_labelInpName.textContent = translations[language].contact_labelInpName;
+        contact_labelInpEmail.textContent = translations[language].contact_labelInpEmail;
+        contact_labelInpComent.textContent = translations[language].contact_labelInpComent;
+        contact_subtitleForm.textContent = translations[language].contact_subtitleForm;
     }
 }
 

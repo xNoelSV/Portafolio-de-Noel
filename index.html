@@ -273,13 +273,13 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="card-body p-5">
-                            <h5 class="subtitles">Introduce los datos</h5>
+                            <h5 class="subtitles" id="contact_subtitleForm">Introduce los datos</h5>
                             <form class="mt-4 text-start" action="Scripts/mail.php" method="POST">
-                                <label for="contact_inpName" class="form-label">Nombre y apellidos:</label>
+                                <label for="contact_inpName" class="form-label" id="contact_labelInpName">Nombre y apellidos:</label>
                                 <input type="text" class="form-control mb-3" id="contact_inpName" name="contact_inpName"/>
-                                <label for="contact_inpEmail" class="form-label">Dirección electrónica:</label>
+                                <label for="contact_inpEmail" class="form-label" id="contact_labelInpEmail">Dirección electrónica:</label>
                                 <input type="email" class="form-control mb-3" id="contact_inpEmail" name="contact_inpEmail"/>
-                                <label for="contact_inpComent" class="form-label">Comentario:</label>
+                                <label for="contact_inpComent" class="form-label" id="contact_labelInpComent">Comentario:</label>
                                 <textarea class="form-control mb-4" rows="3" id="contact_inpComent"  name="contact_inpComent"></textarea>
                                 <input type="submit" class="mt-1" id="contact_btnSend" value="SEND">
                             </form>
@@ -287,8 +287,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col"></div> 
-            </div>-->
         </div>
     </section>
 
