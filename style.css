@@ -247,19 +247,6 @@ hr.center-ball {
     opacity: 1;
 }
 
-.botonMoustache {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
 /* Section 4: Contact */
 
 #sec-contact {
@@ -276,13 +263,54 @@ hr.center-ball {
 }
 
 #contact_img {
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    height: 100%;
+    width: 100%;
+
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(127, 169, 186, 0.65) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+    /*background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 0) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);*/
 }
 
 #contact_enterData {
     font-size: 2rem;
     color: #5a5a5a;
     font-family: "SansPro_light";
+}
+
+#contact_btnSend {
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    background-color: #005376;
+    font-family: "SansPro_semibold";
+    color: white;
+    border: 0px transparent;
+    border-radius: 5px;
+    letter-spacing: 1.2px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#contact_btnSend:hover {
+    background: #4682A9;
+    letter-spacing: 1.8px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
 }
 
 /* ---------------------------------------- Responsive ---------------------------------------- */

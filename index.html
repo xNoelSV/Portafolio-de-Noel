@@ -17,7 +17,9 @@
 
 </head>
 
-<body onload="scrollToElement()">
+<!-- onload="scrollToElement()" -->
+
+<body>
 
     <!-- SVGs -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -146,7 +148,7 @@
 
         <!-- Moustache -->
         <div class="proj_project container-fluid m-0 p-0" id="proj_moustache">
-            <img src="Assets/IMG/Moustache.jpg" class="position-absolute">
+            <img src="Assets/IMG/Moustache.jpg" class="position-absolute" style="object-fit: cover;">
             <div class="container text-center h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-4">
@@ -173,7 +175,7 @@
 
         <!-- Matheorite -->
         <div class="proj_project container-fluid m-0 p-0" id="proj_matheorite">
-            <img src="Assets/IMG/Matheorite.jpg" class="position-absolute">
+            <img src="Assets/IMG/Matheorite.jpg" class="position-absolute" style="object-fit: cover;">
             <div class="container text-center h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-4">
@@ -200,7 +202,7 @@
 
         <!-- Portafolio -->
         <div class="proj_project container-fluid m-0 p-0" id="proj_portafolio">
-            <img src="Assets/IMG/Portafolio.jpg" class="position-absolute">
+            <img src="Assets/IMG/Portafolio.jpg" class="position-absolute" style="object-fit: cover;">
             <div class="container text-center h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-4">
@@ -229,11 +231,11 @@
     </section>
 
     <!-- SECTION 4: Contact -->
-    <section id="sec-contact">
+    <section id="sec-contact" class="pb-5">
         <p class="titles text-center mb-0" id="contact_title">CONTACTO</p>
         <hr class="center-ball mb-5">
 
-        <div class="container-fluid text-center">
+        <div class="container-fluid">
             <!--<div class="row m-4">
                  <div class="col"></div>
                 <div class="col-md-9">
@@ -264,17 +266,23 @@
                     </div>
                 </div>-->
 
-            <div class="card mb-3" style="max-width: 90vw;">
+            <div class="card mx-auto" style="max-width: 70vw;">
                 <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="..." class="img-fluid rounded-start" alt="...">
+                    <div class="col-lg-5">
+                        <img src="Assets/IMG/FotoMia_contact.JPG" class="img-fluid rounded-start" id="contact_img">
                     </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <div class="col-lg-7">
+                        <div class="card-body p-5">
+                            <h5 class="subtitles">Introduce los datos</h5>
+                            <form class="mt-4 text-start" action="Scripts/mail.php" method="POST">
+                                <label for="contact_inpName" class="form-label">Nombre y apellidos:</label>
+                                <input type="text" class="form-control mb-3" id="contact_inpName" name="contact_inpName"/>
+                                <label for="contact_inpEmail" class="form-label">Dirección electrónica:</label>
+                                <input type="email" class="form-control mb-3" id="contact_inpEmail" name="contact_inpEmail"/>
+                                <label for="contact_inpComent" class="form-label">Comentario:</label>
+                                <textarea class="form-control mb-4" rows="3" id="contact_inpComent"  name="contact_inpComent"></textarea>
+                                <input type="submit" class="mt-1" id="contact_btnSend" value="SEND">
+                            </form>
                         </div>
                     </div>
                 </div>
