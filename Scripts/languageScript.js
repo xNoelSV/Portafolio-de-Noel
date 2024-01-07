@@ -94,6 +94,23 @@ function changeLanguage(language) {
             proj_cardBody_matheorite_txt20: "Instala el juego en tu dispositivo.",
             proj_cardBody_matheorite_txt21: "Embárcate en una aventura matemática en el espacio y destruye todos los meteoritos.",
             proj_cardBody_matheorite_txt22: "Gracias por explorar \"Matheorite\". Este juego representa nuestro esfuerzo conjunto, creatividad y dedicación. ¡Esperamos que disfrutes de la experiencia educativa y de juego que hemos creado con tanto entusiasmo!",
+            // -- Portfolio
+            proj_cardBody_portafolio_txt1: "Portafolio Personal",
+            proj_cardBody_portafolio_txt2: "¡Hola! Soy Noel Sariñena, un apasionado desarrollador con experiencia en diversas tecnologías y un enfoque en la creación de soluciones innovadoras. Soy técnico superior en desarrollo de aplicaciones multiplataforma y a continuación haré un resumen de algunos de los proyectos más destacados de mi portafolio:",
+            proj_cardBody_portafolio_txt3: "Valores y Habilidades",
+            proj_cardBody_portafolio_txt4: "Pasión por la Tecnología",
+            proj_cardBody_portafolio_txt4_1: "Profundo interés en la programación y la tecnología.",
+            proj_cardBody_portafolio_txt5: "Aprendizaje Continuo",
+            proj_cardBody_portafolio_txt5_1: "Comprometido con el crecimiento constante.",
+            proj_cardBody_portafolio_txt6: "Creatividad y Diseño",
+            proj_cardBody_portafolio_txt6_1: "Integración de funcionalidad con diseño atractivo.",
+            proj_cardBody_portafolio_txt7: "Resolución de Problemas",
+            proj_cardBody_portafolio_txt7_1: "Enfoque en encontrar soluciones efectivas.",
+            proj_cardBody_portafolio_txt8: "Colaboración y Comunicación",
+            proj_cardBody_portafolio_txt8_1: "Experiencia en proyectos individuales y colaborativos.",
+            proj_cardBody_portafolio_txt9: "Contacto",
+            proj_cardBody_portafolio_txt10: "Correo Electrónico",
+            proj_cardBody_portafolio_txt11: "¡Gracias por explorar mi portafolio! Estoy emocionado/a por las oportunidades futuras y la posibilidad de contribuir a proyectos innovadores. ¡Conéctate y exploremos nuevas posibilidades juntos!",
             contact_title: "CONTACTO",
             contact_btnCurriculum: "MI CURRÍCULUM",
             contact_subtitleForm: "Introduce los datos",
@@ -193,6 +210,23 @@ function changeLanguage(language) {
             proj_cardBody_matheorite_txt20: "Instal·la el joc al teu dispositiu.",
             proj_cardBody_matheorite_txt21: "Embarca't en una aventura matemàtica a l'espai i destrueix tots els meteorits.",
             proj_cardBody_matheorite_txt22: "Gràcies per explorar \"Matheorite\". Aquest joc representa el nostre esforç conjunt, creativitat i dedicació. Esperem que gaudeixis de l'experiència educativa i de joc que hem creat amb tant entusiasme!",
+            // -- Portfolio
+            proj_cardBody_portafolio_txt1: "Portfoli Personal",
+            proj_cardBody_portafolio_txt2: "Hola! Sóc en Noel Sariñena, un apassionat desenvolupador amb experiència en diverses tecnologies i un enfocament en la creació de solucions innovadores. Sóc tècnic superior en desenvolupament d'aplicacions multiplataforma, i a continuació faré un resum d'alguns dels projectes més destacats del meu portfoli:",
+            proj_cardBody_portafolio_txt3: "Valors i Habilitats",
+            proj_cardBody_portafolio_txt4: "Passió per la Tecnologia",
+            proj_cardBody_portafolio_txt4_1: "Interès profund en la programació i la tecnologia.",
+            proj_cardBody_portafolio_txt5: "Aprenentatge Continu",
+            proj_cardBody_portafolio_txt5_1: "Compromès amb el creixement constant.",
+            proj_cardBody_portafolio_txt6: "Creativitat i Disseny",
+            proj_cardBody_portafolio_txt6_1: "Integració de funcionalitat amb disseny atractiu.",
+            proj_cardBody_portafolio_txt7: "Resolució de Problemes",
+            proj_cardBody_portafolio_txt7_1: "Enfocament en trobar solucions efectives.",
+            proj_cardBody_portafolio_txt8: "Col·laboració i Comunicació",
+            proj_cardBody_portafolio_txt8_1: "Experiència en projectes individuals i col·laboratius.",
+            proj_cardBody_portafolio_txt9: "Contacte",
+            proj_cardBody_portafolio_txt10: "Correu Electrònic",
+            proj_cardBody_portafolio_txt11: "Gràcies per explorar el meu portfoli! Estic emocionat per les oportunitats futures i la possibilitat de contribuir a projectes innovadors. Connecta amb mi, i explorem noves possibilitats junts!",
             contact_title: "CONTACTE",
             contact_btnCurriculum: "EL MEU CURRÍCULUM",
             contact_subtitleForm: "Introdueix les dades",
@@ -292,6 +326,23 @@ function changeLanguage(language) {
             proj_cardBody_matheorite_txt20: "Install the game on your device.",
             proj_cardBody_matheorite_txt21: "Embark on a mathematical adventure in space and destroy all the meteorites.",
             proj_cardBody_matheorite_txt22: "Thank you for exploring 'Matheorite.' This game represents our joint effort, creativity, and dedication. We hope you enjoy the educational and gaming experience we've created with so much enthusiasm!",
+            // -- Portfolio
+            proj_cardBody_portafolio_txt1: "Personal Portfolio",
+            proj_cardBody_portafolio_txt2: "Hello! I'm Noel Sariñena, a passionate developer with experience in various technologies and a focus on creating innovative solutions. I hold a higher technician degree in multi-platform application development, and below is a summary of some of the standout projects from my portfolio:",
+            proj_cardBody_portafolio_txt3: "Values and Skills",
+            proj_cardBody_portafolio_txt4: "Passion for Technology",
+            proj_cardBody_portafolio_txt4_1: "Deep interest in programming and technology.",
+            proj_cardBody_portafolio_txt5: "Continuous Learning",
+            proj_cardBody_portafolio_txt5_1: "Committed to constant growth.",
+            proj_cardBody_portafolio_txt6: "Creativity and Design",
+            proj_cardBody_portafolio_txt6_1: "Integration of functionality with attractive design.",
+            proj_cardBody_portafolio_txt7: "Problem Solving",
+            proj_cardBody_portafolio_txt7_1: "Focus on finding effective solutions.",
+            proj_cardBody_portafolio_txt8: "Collaboration and Communication",
+            proj_cardBody_portafolio_txt8_1: "Experience in individual and collaborative projects.",
+            proj_cardBody_portafolio_txt9: "Contact",
+            proj_cardBody_portafolio_txt10: "Email",
+            proj_cardBody_portafolio_txt11: "Thank you for exploring my portfolio! I'm excited about future opportunities and the possibility of contributing to innovative projects. Connect with me, and let's explore new possibilities together!",
             contact_title: "CONTACT",
             contact_btnCurriculum: "MY RESUME",
             contact_subtitleForm: "Enter the data",
@@ -398,7 +449,23 @@ function changeLanguage(language) {
     const proj_cardBody_matheorite_txt20 = document.getElementById("proj_cardBody_matheorite_txt20");
     const proj_cardBody_matheorite_txt21 = document.getElementById("proj_cardBody_matheorite_txt21");
     const proj_cardBody_matheorite_txt22 = document.getElementById("proj_cardBody_matheorite_txt22");
-
+    // -- Portfolio
+    const proj_cardBody_portafolio_txt1 = document.getElementById("proj_cardBody_portafolio_txt1");
+    const proj_cardBody_portafolio_txt2 = document.getElementById("proj_cardBody_portafolio_txt2");
+    const proj_cardBody_portafolio_txt3 = document.getElementById("proj_cardBody_portafolio_txt3");
+    const proj_cardBody_portafolio_txt4 = document.getElementById("proj_cardBody_portafolio_txt4");
+    const proj_cardBody_portafolio_txt4_1 = document.getElementById("proj_cardBody_portafolio_txt4_1");
+    const proj_cardBody_portafolio_txt5 = document.getElementById("proj_cardBody_portafolio_txt5");
+    const proj_cardBody_portafolio_txt5_1 = document.getElementById("proj_cardBody_portafolio_txt5_1");
+    const proj_cardBody_portafolio_txt6 = document.getElementById("proj_cardBody_portafolio_txt6");
+    const proj_cardBody_portafolio_txt6_1 = document.getElementById("proj_cardBody_portafolio_txt6_1");
+    const proj_cardBody_portafolio_txt7 = document.getElementById("proj_cardBody_portafolio_txt7");
+    const proj_cardBody_portafolio_txt7_1 = document.getElementById("proj_cardBody_portafolio_txt7_1");
+    const proj_cardBody_portafolio_txt8 = document.getElementById("proj_cardBody_portafolio_txt8");
+    const proj_cardBody_portafolio_txt8_1 = document.getElementById("proj_cardBody_portafolio_txt8_1");
+    const proj_cardBody_portafolio_txt9 = document.getElementById("proj_cardBody_portafolio_txt9");
+    const proj_cardBody_portafolio_txt10 = document.getElementById("proj_cardBody_portafolio_txt10");
+    const proj_cardBody_portafolio_txt11 = document.getElementById("proj_cardBody_portafolio_txt11");
     // Contact
     const contact_title = document.getElementById("contact_title");
     const contact_btnCurriculum = document.getElementById("contact_btnCurriculum");
@@ -504,7 +571,23 @@ function changeLanguage(language) {
         proj_cardBody_matheorite_txt20.textContent = translations[language].proj_cardBody_matheorite_txt20;
         proj_cardBody_matheorite_txt21.textContent = translations[language].proj_cardBody_matheorite_txt21;
         proj_cardBody_matheorite_txt22.textContent = translations[language].proj_cardBody_matheorite_txt22;
-
+        // -- Portfolio
+        proj_cardBody_portafolio_txt1.textContent = translations[language].proj_cardBody_portafolio_txt1;
+        proj_cardBody_portafolio_txt2.textContent = translations[language].proj_cardBody_portafolio_txt2;
+        proj_cardBody_portafolio_txt3.textContent = translations[language].proj_cardBody_portafolio_txt3;
+        proj_cardBody_portafolio_txt4.textContent = translations[language].proj_cardBody_portafolio_txt4;
+        proj_cardBody_portafolio_txt4_1.textContent = translations[language].proj_cardBody_portafolio_txt4_1;
+        proj_cardBody_portafolio_txt5.textContent = translations[language].proj_cardBody_portafolio_txt5;
+        proj_cardBody_portafolio_txt5_1.textContent = translations[language].proj_cardBody_portafolio_txt5_1;
+        proj_cardBody_portafolio_txt6.textContent = translations[language].proj_cardBody_portafolio_txt6;
+        proj_cardBody_portafolio_txt6_1.textContent = translations[language].proj_cardBody_portafolio_txt6_1;
+        proj_cardBody_portafolio_txt7.textContent = translations[language].proj_cardBody_portafolio_txt7;
+        proj_cardBody_portafolio_txt7_1.textContent = translations[language].proj_cardBody_portafolio_txt7_1;
+        proj_cardBody_portafolio_txt8.textContent = translations[language].proj_cardBody_portafolio_txt8;
+        proj_cardBody_portafolio_txt8_1.textContent = translations[language].proj_cardBody_portafolio_txt8_1;
+        proj_cardBody_portafolio_txt9.textContent = translations[language].proj_cardBody_portafolio_txt9;
+        proj_cardBody_portafolio_txt10.textContent = translations[language].proj_cardBody_portafolio_txt10;
+        proj_cardBody_portafolio_txt11.textContent = translations[language].proj_cardBody_portafolio_txt11;
         // Contact
         contact_title.textContent = translations[language].contact_title;
         //contact_btnCurriculum.textContent = translations[language].contact_btnCurriculum;

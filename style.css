@@ -210,7 +210,7 @@ hr.center-ball {
 
 .proj_btn:hover {
     background: #6392ff;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
 }
 
 .proj_btn:active {
@@ -301,7 +301,8 @@ hr.center-ball {
     font-family: "SansPro_light";
 }
 
-#contact_btnSend {
+.contact_btnFormat {
+    width: 12.5rem;
     padding: 0.8rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -316,7 +317,7 @@ hr.center-ball {
     transition-duration: 0.3s;
 }
 
-#contact_btnSend:hover {
+.contact_btnFormat:hover {
     background: #4682A9;
     letter-spacing: 1.8px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -423,8 +424,8 @@ hr.center-ball {
     }
 
     .proj_txtCard {
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
     }
 
 }
@@ -466,5 +467,9 @@ hr.center-ball {
 
     #contact_enterData {
         font-size: 1.5rem;
+    }
+
+    .contact_btnFormat {
+        width: 11rem;
     }
 }
