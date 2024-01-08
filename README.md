@@ -34,4 +34,4 @@ Estos son solo algunos ejemplos de mi trabajo. Cada proyecto refleja mi pasión 
 
 ¡Gracias por explorar mi portafolio! Estoy emocionado/a por las oportunidades futuras y la posibilidad de contribuir a proyectos innovadores. ¡Conéctate y exploremos nuevas posibilidades juntos!
 
-Proximo commit: Commit 27
+Proximo commit: Commit 28
