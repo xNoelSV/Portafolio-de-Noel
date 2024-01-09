@@ -112,11 +112,12 @@ function changeLanguage(language) {
             proj_cardBody_portafolio_txt10: "Correo Electrónico",
             proj_cardBody_portafolio_txt11: "¡Gracias por explorar mi portafolio! Estoy emocionado/a por las oportunidades futuras y la posibilidad de contribuir a proyectos innovadores. ¡Conéctate y exploremos nuevas posibilidades juntos!",
             contact_title: "CONTACTO",
-            contact_btnCurriculum: "MI CURRÍCULUM",
+            contact_btnCurriculum: "CURRÍCULUM",
             contact_subtitleForm: "Introduce los datos",
             contact_labelInpName: "Nombre y apellidos:",
             contact_labelInpEmail: "Dirección electrónica:",
-            contact_labelInpComent: "Comentario:"
+            contact_labelInpComent: "Comentario:",
+            contact_btnSend: "ENVIAR"
         },
         ca: {
             presentation_btnProjects: "PROJECTES",
@@ -228,11 +229,12 @@ function changeLanguage(language) {
             proj_cardBody_portafolio_txt10: "Correu Electrònic",
             proj_cardBody_portafolio_txt11: "Gràcies per explorar el meu portfoli! Estic emocionat per les oportunitats futures i la possibilitat de contribuir a projectes innovadors. Connecta amb mi, i explorem noves possibilitats junts!",
             contact_title: "CONTACTE",
-            contact_btnCurriculum: "EL MEU CURRÍCULUM",
+            contact_btnCurriculum: "CURRÍCULUM",
             contact_subtitleForm: "Introdueix les dades",
             contact_labelInpName: "Nom i cognoms:",
             contact_labelInpEmail: "Adreça electrònica:",
-            contact_labelInpComent: "Comentari:"
+            contact_labelInpComent: "Comentari:",
+            contact_btnSend: "ENVIAR"
         },
         en: {
             presentation_btnProjects: "PROJECTS",
@@ -348,7 +350,8 @@ function changeLanguage(language) {
             contact_subtitleForm: "Enter the data",
             contact_labelInpName: "Name and surname:",
             contact_labelInpEmail: "E-mail:",
-            contact_labelInpComent: "Comments:"
+            contact_labelInpComent: "Comments:",
+            contact_btnSend: "SEND"
         },
         // More traductions if necessary
     };
@@ -473,6 +476,7 @@ function changeLanguage(language) {
     const contact_labelInpEmail = document.getElementById("contact_labelInpEmail");
     const contact_labelInpComent = document.getElementById("contact_labelInpComent");
     const contact_subtitleForm = document.getElementById("contact_subtitleForm");
+    const contact_btnSend = document.getElementById("contact_btnSend");
 
     // Verify traduction tag
     if (translations[language]) {
@@ -590,11 +594,12 @@ function changeLanguage(language) {
         proj_cardBody_portafolio_txt11.textContent = translations[language].proj_cardBody_portafolio_txt11;
         // Contact
         contact_title.textContent = translations[language].contact_title;
-        //contact_btnCurriculum.textContent = translations[language].contact_btnCurriculum;
+        contact_btnCurriculum.textContent = translations[language].contact_btnCurriculum;
         contact_labelInpName.textContent = translations[language].contact_labelInpName;
         contact_labelInpEmail.textContent = translations[language].contact_labelInpEmail;
         contact_labelInpComent.textContent = translations[language].contact_labelInpComent;
         contact_subtitleForm.textContent = translations[language].contact_subtitleForm;
+        contact_btnSend.value = translations[language].contact_btnSend;
     }
 }
 
