@@ -26,6 +26,8 @@ function changeLanguage(language) {
             proj_btnRepoPortafolio: "REPOSITORIO",
             proj_btnInfoPortafolio: "INFORMACIÓN",
             proj_txtRepoPortafolio: "PORTAFOLIO",
+            proj_btnInfoNodeapi: "INFORMACIÓN",
+            proj_txtRepoNodeapi: "PORTAFOLIO",
             // -- Moustache
             proj_cardBody_moustache_txt1: "Proyecto Final de Grado Superior: Moustache",
             proj_cardBody_moustache_txt2: "Gestor de Reservas para Barbería",
@@ -111,6 +113,39 @@ function changeLanguage(language) {
             proj_cardBody_portafolio_txt9: "Contacto",
             proj_cardBody_portafolio_txt10: "Correo Electrónico",
             proj_cardBody_portafolio_txt11: "¡Gracias por explorar mi portafolio! Estoy emocionado/a por las oportunidades futuras y la posibilidad de contribuir a proyectos innovadores. ¡Conéctate y exploremos nuevas posibilidades juntos!",
+            // -- NodeAPI
+            proj_cardBody_Nodeapi_txt1: "API NodeJS para Aplicaciones Variadas",
+            proj_cardBody_Nodeapi_txt2: "Este repositorio contiene tres APIs diferentes desarrolladas en NodeJS, cada una con su propia funcionalidad y características. Las APIs proporcionan servicios para un blog, una red social y una aplicación tipo Spotify.",
+            proj_cardBody_Nodeapi_txt3: "APIs Incluidas",
+            proj_cardBody_Nodeapi_txt4: "API para Blog:",
+            proj_cardBody_Nodeapi_txt4_1: "Esta API permite la gestión de artículos en un blog. Los usuarios pueden crear, leer, actualizar y eliminar artículos.",
+            proj_cardBody_Nodeapi_txt5: "API para Red Social:",
+            proj_cardBody_Nodeapi_txt5_1: "Esta API proporciona funcionalidades para una red social. Permite la gestión de usuarios, publicaciones y seguimientos entre usuarios. Además, introduce la autenticación JWT (JSON Web Token) para garantizar la seguridad de las operaciones.",
+            proj_cardBody_Nodeapi_txt6: "API para Aplicación tipo Spotify:",
+            proj_cardBody_Nodeapi_txt6_1: "Esta API simula las características principales de una aplicación de música como Spotify. Permite la gestión de listas de reproducción, artistas, canciones y más.",
+            proj_cardBody_Nodeapi_txt7: "Características Comunes",
+            proj_cardBody_Nodeapi_txt8: "NodeJS: Todas las APIs están desarrolladas utilizando NodeJS, un entorno de ejecución de JavaScript del lado del servidor.",
+            proj_cardBody_Nodeapi_txt9: "Express: Se utiliza el framework Express para simplificar el desarrollo de las APIs y gestionar las rutas y solicitudes HTTP.",
+            proj_cardBody_Nodeapi_txt10: "Base de Datos: Cada API utiliza una base de datos para almacenar y gestionar los datos. MongoDB es la base de datos preferida para susodichos proyectos.",
+            proj_cardBody_Nodeapi_txt11: "Documentación de la API: Cada API incluye una documentación detallada que describe los puntos finales disponibles, los parámetros de solicitud, las respuestas esperadas y ejemplos de uso.",
+            proj_cardBody_Nodeapi_txt12: "Requisitos",
+            proj_cardBody_Nodeapi_txt13: "NodeJS instalado en el sistema.",
+            proj_cardBody_Nodeapi_txt14: "Gestor de paquetes npm (Node Package Manager).",
+            proj_cardBody_Nodeapi_txt15: "Instalación",
+            proj_cardBody_Nodeapi_txt16: "Clona este repositorio en tu máquina local:",
+            proj_cardBody_Nodeapi_txt18: "Navega a la carpeta de la API que desees utilizar (API_Rest_BLOG, API_Rest_RED-SOCIAL, API_Rest_APLICACION-MUSICA).",
+            proj_cardBody_Nodeapi_txt19: "Instala las dependencias utilizando npm:",
+            proj_cardBody_Nodeapi_txt21: "Configura la base de datos según las instrucciones proporcionadas en el archivo README.md de cada API.",
+            proj_cardBody_Nodeapi_txt22: "Ejecuta la API:",
+            proj_cardBody_Nodeapi_txt24: "Uso",
+            proj_cardBody_Nodeapi_txt25: "Consulta la documentación de la API para obtener información detallada sobre los puntos finales disponibles y cómo utilizarlos.",
+            proj_cardBody_Nodeapi_txt26: "Contribuciones",
+            proj_cardBody_Nodeapi_txt27: "Las contribuciones son bienvenidas. Si deseas mejorar alguna de las APIs o añadir nuevas características, siéntete libre de abrir un pull request.",
+            proj_cardBody_Nodeapi_txt28: "Problemas",
+            proj_cardBody_Nodeapi_txt29: "Si encuentras algún problema o tienes alguna sugerencia, por favor, abre un issue en el repositorio.",
+            proj_cardBody_Nodeapi_txt30: "Licencia",
+            proj_cardBody_Nodeapi_txt31: "Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.",
+            proj_cardBody_Nodeapi_txt32: "¡Gracias por utilizar mis APIs!",
             contact_title: "CONTACTO",
             contact_btnCurriculum: "CURRÍCULUM",
             contact_subtitleForm: "Introduce los datos",
@@ -384,6 +419,8 @@ function changeLanguage(language) {
     const proj_btnRepoPortafolio = document.getElementById("proj_btnRepoPortafolio");
     const proj_btnInfoPortafolio = document.getElementById("proj_btnInfoPortafolio");
     const proj_txtRepoPortafolio = document.getElementById("proj_txtRepoPortafolio");
+    const proj_btnInfoNodeapi = document.getElementById("proj_btnInfoNodeapi");
+    const proj_txtRepoNodeapi = document.getElementById("proj_txtRepoNodeapi");
     // -- Moustache
     const proj_cardBody_moustache_txt1 = document.getElementById("proj_cardBody_moustache_txt1");
     const proj_cardBody_moustache_txt2 = document.getElementById("proj_cardBody_moustache_txt2");
@@ -469,6 +506,38 @@ function changeLanguage(language) {
     const proj_cardBody_portafolio_txt9 = document.getElementById("proj_cardBody_portafolio_txt9");
     const proj_cardBody_portafolio_txt10 = document.getElementById("proj_cardBody_portafolio_txt10");
     const proj_cardBody_portafolio_txt11 = document.getElementById("proj_cardBody_portafolio_txt11");
+    // -- NodeAPI
+    const proj_cardBody_Nodeapi_txt1 = document.getElementById("proj_cardBody_Nodeapi_txt1");
+    const proj_cardBody_Nodeapi_txt2 = document.getElementById("proj_cardBody_Nodeapi_txt2");
+    const proj_cardBody_Nodeapi_txt3 = document.getElementById("proj_cardBody_Nodeapi_txt3");
+    const proj_cardBody_Nodeapi_txt4 = document.getElementById("proj_cardBody_Nodeapi_txt4");
+    const proj_cardBody_Nodeapi_txt4_1 = document.getElementById("proj_cardBody_Nodeapi_txt4_1");
+    const proj_cardBody_Nodeapi_txt5 = document.getElementById("proj_cardBody_Nodeapi_txt5");
+    const proj_cardBody_Nodeapi_txt5_1 = document.getElementById("proj_cardBody_Nodeapi_txt5_1");
+    const proj_cardBody_Nodeapi_txt6 = document.getElementById("proj_cardBody_Nodeapi_txt6");
+    const proj_cardBody_Nodeapi_txt6_1 = document.getElementById("proj_cardBody_Nodeapi_txt6_1");
+    const proj_cardBody_Nodeapi_txt7 = document.getElementById("proj_cardBody_Nodeapi_txt7");
+    const proj_cardBody_Nodeapi_txt8 = document.getElementById("proj_cardBody_Nodeapi_txt8");
+    const proj_cardBody_Nodeapi_txt9 = document.getElementById("proj_cardBody_Nodeapi_txt9");
+    const proj_cardBody_Nodeapi_txt10 = document.getElementById("proj_cardBody_Nodeapi_txt10");
+    const proj_cardBody_Nodeapi_txt11 = document.getElementById("proj_cardBody_Nodeapi_txt11");
+    const proj_cardBody_Nodeapi_txt12 = document.getElementById("proj_cardBody_Nodeapi_txt12");
+    const proj_cardBody_Nodeapi_txt13 = document.getElementById("proj_cardBody_Nodeapi_txt13");
+    const proj_cardBody_Nodeapi_txt14 = document.getElementById("proj_cardBody_Nodeapi_txt14");
+    const proj_cardBody_Nodeapi_txt15 = document.getElementById("proj_cardBody_Nodeapi_txt15");
+    const proj_cardBody_Nodeapi_txt16 = document.getElementById("proj_cardBody_Nodeapi_txt16");
+    const proj_cardBody_Nodeapi_txt18 = document.getElementById("proj_cardBody_Nodeapi_txt18");
+    const proj_cardBody_Nodeapi_txt19 = document.getElementById("proj_cardBody_Nodeapi_txt19");
+    const proj_cardBody_Nodeapi_txt21 = document.getElementById("proj_cardBody_Nodeapi_txt21");
+    const proj_cardBody_Nodeapi_txt22 = document.getElementById("proj_cardBody_Nodeapi_txt22");
+    const proj_cardBody_Nodeapi_txt24 = document.getElementById("proj_cardBody_Nodeapi_txt24");
+    const proj_cardBody_Nodeapi_txt25 = document.getElementById("proj_cardBody_Nodeapi_txt25");
+    const proj_cardBody_Nodeapi_txt26 = document.getElementById("proj_cardBody_Nodeapi_txt26");
+    const proj_cardBody_Nodeapi_txt27 = document.getElementById("proj_cardBody_Nodeapi_txt27");
+    const proj_cardBody_Nodeapi_txt28 = document.getElementById("proj_cardBody_Nodeapi_txt28");
+    const proj_cardBody_Nodeapi_txt29 = document.getElementById("proj_cardBody_Nodeapi_txt29");
+    const proj_cardBody_Nodeapi_txt30 = document.getElementById("proj_cardBody_Nodeapi_txt30");
+    const proj_cardBody_Nodeapi_txt31 = document.getElementById("proj_cardBody_Nodeapi_txt31");
     // Contact
     const contact_title = document.getElementById("contact_title");
     const contact_btnCurriculum = document.getElementById("contact_btnCurriculum");
@@ -592,6 +661,47 @@ function changeLanguage(language) {
         proj_cardBody_portafolio_txt9.textContent = translations[language].proj_cardBody_portafolio_txt9;
         proj_cardBody_portafolio_txt10.textContent = translations[language].proj_cardBody_portafolio_txt10;
         proj_cardBody_portafolio_txt11.textContent = translations[language].proj_cardBody_portafolio_txt11;
+        // -- NodeAPI
+        proj_cardBody_Nodeapi_txt1.textContent = translations[language].proj_cardBody_Nodeapi_txt1;
+        proj_cardBody_Nodeapi_txt2.textContent = translations[language].proj_cardBody_Nodeapi_txt2;
+        proj_cardBody_Nodeapi_txt3.textContent = translations[language].proj_cardBody_Nodeapi_txt3;
+        proj_cardBody_Nodeapi_txt4.textContent = translations[language].proj_cardBody_Nodeapi_txt4;
+        proj_cardBody_Nodeapi_txt4_1.textContent = translations[language].proj_cardBody_Nodeapi_txt4_1;
+        proj_cardBody_Nodeapi_txt5.textContent = translations[language].proj_cardBody_Nodeapi_txt5;
+        proj_cardBody_Nodeapi_txt5_1.textContent = translations[language].proj_cardBody_Nodeapi_txt5_1;
+        proj_cardBody_Nodeapi_txt6.textContent = translations[language].proj_cardBody_Nodeapi_txt6;
+        proj_cardBody_Nodeapi_txt6_1.textContent = translations[language].proj_cardBody_Nodeapi_txt6_1;
+        proj_cardBody_Nodeapi_txt7.textContent = translations[language].proj_cardBody_Nodeapi_txt7;
+        proj_cardBody_Nodeapi_txt8.textContent = translations[language].proj_cardBody_Nodeapi_txt8;
+        proj_cardBody_Nodeapi_txt8_1.textContent = translations[language].proj_cardBody_Nodeapi_txt8_1;
+        proj_cardBody_Nodeapi_txt9.textContent = translations[language].proj_cardBody_Nodeapi_txt9;
+        proj_cardBody_Nodeapi_txt9_1.textContent = translations[language].proj_cardBody_Nodeapi_txt9_1;
+        proj_cardBody_Nodeapi_txt10.textContent = translations[language].proj_cardBody_Nodeapi_txt10;
+        proj_cardBody_Nodeapi_txt10_1.textContent = translations[language].proj_cardBody_Nodeapi_txt10_1;
+        proj_cardBody_Nodeapi_txt11.textContent = translations[language].proj_cardBody_Nodeapi_txt11;
+        proj_cardBody_Nodeapi_txt11_1.textContent = translations[language].proj_cardBody_Nodeapi_txt11_1;
+        proj_cardBody_Nodeapi_txt12.textContent = translations[language].proj_cardBody_Nodeapi_txt12;
+        proj_cardBody_Nodeapi_txt13.textContent = translations[language].proj_cardBody_Nodeapi_txt13;
+        proj_cardBody_Nodeapi_txt14.textContent = translations[language].proj_cardBody_Nodeapi_txt14;
+        proj_cardBody_Nodeapi_txt15.textContent = translations[language].proj_cardBody_Nodeapi_txt15;
+        proj_cardBody_Nodeapi_txt16.textContent = translations[language].proj_cardBody_Nodeapi_txt16;
+        proj_cardBody_Nodeapi_txt17.textContent = translations[language].proj_cardBody_Nodeapi_txt17;
+        proj_cardBody_Nodeapi_txt18.textContent = translations[language].proj_cardBody_Nodeapi_txt18;
+        proj_cardBody_Nodeapi_txt19.textContent = translations[language].proj_cardBody_Nodeapi_txt19;
+        proj_cardBody_Nodeapi_txt20.textContent = translations[language].proj_cardBody_Nodeapi_txt20;
+        proj_cardBody_Nodeapi_txt21.textContent = translations[language].proj_cardBody_Nodeapi_txt21;
+        proj_cardBody_Nodeapi_txt22.textContent = translations[language].proj_cardBody_Nodeapi_txt22;
+        proj_cardBody_Nodeapi_txt23.textContent = translations[language].proj_cardBody_Nodeapi_txt23;
+        proj_cardBody_Nodeapi_txt24.textContent = translations[language].proj_cardBody_Nodeapi_txt24;
+        proj_cardBody_Nodeapi_txt25.textContent = translations[language].proj_cardBody_Nodeapi_txt25;
+        proj_cardBody_Nodeapi_txt26.textContent = translations[language].proj_cardBody_Nodeapi_txt26;
+        proj_cardBody_Nodeapi_txt27.textContent = translations[language].proj_cardBody_Nodeapi_txt27;
+        proj_cardBody_Nodeapi_txt28.textContent = translations[language].proj_cardBody_Nodeapi_txt28;
+        proj_cardBody_Nodeapi_txt29.textContent = translations[language].proj_cardBody_Nodeapi_txt29;
+        proj_cardBody_Nodeapi_txt30.textContent = translations[language].proj_cardBody_Nodeapi_txt30;
+        proj_cardBody_Nodeapi_txt31.textContent = translations[language].proj_cardBody_Nodeapi_txt31;
+        proj_cardBody_Nodeapi_txt32.textContent = translations[language].proj_cardBody_Nodeapi_txt32;
+
         // Contact
         contact_title.textContent = translations[language].contact_title;
         contact_btnCurriculum.textContent = translations[language].contact_btnCurriculum;
