@@ -124,10 +124,14 @@ function changeLanguage(language) {
             proj_cardBody_Nodeapi_txt6: "API para Aplicación tipo Spotify:",
             proj_cardBody_Nodeapi_txt6_1: "Esta API simula las características principales de una aplicación de música como Spotify. Permite la gestión de listas de reproducción, artistas, canciones y más.",
             proj_cardBody_Nodeapi_txt7: "Características Comunes",
-            proj_cardBody_Nodeapi_txt8: "NodeJS: Todas las APIs están desarrolladas utilizando NodeJS, un entorno de ejecución de JavaScript del lado del servidor.",
-            proj_cardBody_Nodeapi_txt9: "Express: Se utiliza el framework Express para simplificar el desarrollo de las APIs y gestionar las rutas y solicitudes HTTP.",
-            proj_cardBody_Nodeapi_txt10: "Base de Datos: Cada API utiliza una base de datos para almacenar y gestionar los datos. MongoDB es la base de datos preferida para susodichos proyectos.",
-            proj_cardBody_Nodeapi_txt11: "Documentación de la API: Cada API incluye una documentación detallada que describe los puntos finales disponibles, los parámetros de solicitud, las respuestas esperadas y ejemplos de uso.",
+            proj_cardBody_Nodeapi_txt8: "NodeJS: ",
+            proj_cardBody_Nodeapi_txt8_1: "Todas las APIs están desarrolladas utilizando NodeJS, un entorno de ejecución de JavaScript del lado del servidor.",
+            proj_cardBody_Nodeapi_txt9: "Express: ",
+            proj_cardBody_Nodeapi_txt9_1: "Se utiliza el framework Express para simplificar el desarrollo de las APIs y gestionar las rutas y solicitudes HTTP.",
+            proj_cardBody_Nodeapi_txt10: "Base de Datos: ",
+            proj_cardBody_Nodeapi_txt10_1: "Cada API utiliza una base de datos para almacenar y gestionar los datos. MongoDB es la base de datos preferida para susodichos proyectos.",
+            proj_cardBody_Nodeapi_txt11: "Documentación de la API: ",
+            proj_cardBody_Nodeapi_txt11_1: "Cada API incluye una documentación detallada que describe los puntos finales disponibles, los parámetros de solicitud, las respuestas esperadas y ejemplos de uso.",
             proj_cardBody_Nodeapi_txt12: "Requisitos",
             proj_cardBody_Nodeapi_txt13: "NodeJS instalado en el sistema.",
             proj_cardBody_Nodeapi_txt14: "Gestor de paquetes npm (Node Package Manager).",
@@ -263,6 +267,43 @@ function changeLanguage(language) {
             proj_cardBody_portafolio_txt9: "Contacte",
             proj_cardBody_portafolio_txt10: "Correu Electrònic",
             proj_cardBody_portafolio_txt11: "Gràcies per explorar el meu portfoli! Estic emocionat per les oportunitats futures i la possibilitat de contribuir a projectes innovadors. Connecta amb mi, i explorem noves possibilitats junts!",
+            // -- NodeAPI
+            proj_cardBody_Nodeapi_txt1: "API NodeJS per a Aplicacions Variades",
+            proj_cardBody_Nodeapi_txt2: "Aquest repositori conté tres APIs diferents desenvolupades en NodeJS, cadascuna amb la seva pròpia funcionalitat i característiques. Les APIs proporcionen serveis per a un blog, una xarxa social i una aplicació tipus Spotify.",
+            proj_cardBody_Nodeapi_txt3: "APIs Incloses",
+            proj_cardBody_Nodeapi_txt4: "API per al Blog:",
+            proj_cardBody_Nodeapi_txt4_1: "Aquesta API permet la gestió d'articles en un blog. Els usuaris poden crear, llegir, actualitzar i eliminar articles.",
+            proj_cardBody_Nodeapi_txt5: "API per a Xarxa Social:",
+            proj_cardBody_Nodeapi_txt5_1: "Aquesta API proporciona funcionalitats per a una xarxa social. Permet la gestió d'usuaris, publicacions i seguiments entre usuaris. A més, introdueix l'autenticació JWT (JSON Web Token) per garantir la seguretat de les operacions.",
+            proj_cardBody_Nodeapi_txt6: "API per a Aplicació tipus Spotify:",
+            proj_cardBody_Nodeapi_txt6_1: "Aquesta API simula les característiques principals d'una aplicació de música com Spotify. Permet la gestió de llistes de reproducció, artistes, cançons i més.",
+            proj_cardBody_Nodeapi_txt7: "Característiques Comunes",
+            proj_cardBody_Nodeapi_txt8: "NodeJS: ",
+            proj_cardBody_Nodeapi_txt8_1: "Totes les APIs estan desenvolupades utilitzant NodeJS, un entorn d'execució de JavaScript al costat del servidor.",
+            proj_cardBody_Nodeapi_txt9: "Express: ",
+            proj_cardBody_Nodeapi_txt9_1: "S'utilitza el framework Express per simplificar el desenvolupament de les APIs i gestionar les rutes i les sol·licituds HTTP.",
+            proj_cardBody_Nodeapi_txt10: "Base de Dades: ",
+            proj_cardBody_Nodeapi_txt10_1: "Cada API utilitza una base de dades per emmagatzemar i gestionar les dades. MongoDB és la base de dades preferida per a aquests projectes.",
+            proj_cardBody_Nodeapi_txt11: "Documentació de l'API: ",
+            proj_cardBody_Nodeapi_txt11_1: "Cada API inclou una documentació detallada que descriu els punts finals disponibles, els paràmetres de sol·licitud, les respostes esperades i exemples d'ús.",
+            proj_cardBody_Nodeapi_txt12: "Requisits",
+            proj_cardBody_Nodeapi_txt13: "NodeJS instal·lat al sistema.",
+            proj_cardBody_Nodeapi_txt14: "Gestor de paquets npm (Node Package Manager).",
+            proj_cardBody_Nodeapi_txt15: "Instal·lació",
+            proj_cardBody_Nodeapi_txt16: "Clona aquest repositori a la teva màquina local:",
+            proj_cardBody_Nodeapi_txt18: "Navega a la carpeta de l'API que vulguis utilitzar (API_Rest_BLOG, API_Rest_RED-SOCIAL, API_Rest_APLICACION-MUSICA).",
+            proj_cardBody_Nodeapi_txt19: "Instal·la les dependències utilitzant npm:",
+            proj_cardBody_Nodeapi_txt21: "Configura la base de dades segons les instruccions proporcionades a l'arxiu README.md de cada API.",
+            proj_cardBody_Nodeapi_txt22: "Executa l'API:",
+            proj_cardBody_Nodeapi_txt24: "Ús",
+            proj_cardBody_Nodeapi_txt25: "Consulta la documentació de l'API per obtenir informació detallada sobre els punts finals disponibles i com utilitzar-los.",
+            proj_cardBody_Nodeapi_txt26: "Contribucions",
+            proj_cardBody_Nodeapi_txt27: "Les contribucions són benvingudes. Si desitges millorar alguna de les APIs o afegir noves funcionalitats, si us plau, obre un pull request.",
+            proj_cardBody_Nodeapi_txt28: "Problemes",
+            proj_cardBody_Nodeapi_txt29: "Si trobes algun problema o tens alguna suggerència, si us plau, obre un issue al repositori.",
+            proj_cardBody_Nodeapi_txt30: "Llicència",
+            proj_cardBody_Nodeapi_txt31: "Aquest projecte està sota la Llicència MIT. Consulta l'arxiu LICENSE per a més detalls.",
+            proj_cardBody_Nodeapi_txt32: "Gràcies per utilitzar les meves APIs!",
             contact_title: "CONTACTE",
             contact_btnCurriculum: "CURRÍCULUM",
             contact_subtitleForm: "Introdueix les dades",
@@ -380,6 +421,43 @@ function changeLanguage(language) {
             proj_cardBody_portafolio_txt9: "Contact",
             proj_cardBody_portafolio_txt10: "Email",
             proj_cardBody_portafolio_txt11: "Thank you for exploring my portfolio! I'm excited about future opportunities and the possibility of contributing to innovative projects. Connect with me, and let's explore new possibilities together!",
+            // -- NodeAPI
+            proj_cardBody_Nodeapi_txt1: "API NodeJS para Aplicaciones Variadas",
+            proj_cardBody_Nodeapi_txt2: "This repository contains three different APIs developed in NodeJS, each with its own functionality and features. The APIs provide services for a blog, a social network, and a Spotify-like application.",
+            proj_cardBody_Nodeapi_txt3: "APIs Included",
+            proj_cardBody_Nodeapi_txt4: "Blog API:",
+            proj_cardBody_Nodeapi_txt4_1: "This API allows management of articles in a blog. Users can create, read, update, and delete articles.",
+            proj_cardBody_Nodeapi_txt5: "Social Network API:",
+            proj_cardBody_Nodeapi_txt5_1: "This API provides functionalities for a social network. It allows management of users, posts, and followings between users. Additionally, it introduces JWT (JSON Web Token) authentication to ensure operation security.",
+            proj_cardBody_Nodeapi_txt6: "Spotify-like Application API:",
+            proj_cardBody_Nodeapi_txt6_1: "This API simulates the main features of a music application like Spotify. It allows management of playlists, artists, songs, and more.",
+            proj_cardBody_Nodeapi_txt7: "Common Features",
+            proj_cardBody_Nodeapi_txt8: "NodeJS: ",
+            proj_cardBody_Nodeapi_txt8_1: "All APIs are developed using NodeJS, a JavaScript runtime environment on the server side.",
+            proj_cardBody_Nodeapi_txt9: "Express: ",
+            proj_cardBody_Nodeapi_txt9_1: "The Express framework is used to simplify the development of APIs and manage routes and HTTP requests.",
+            proj_cardBody_Nodeapi_txt10: "Database: ",
+            proj_cardBody_Nodeapi_txt10_1: "Each API uses a database to store and manage data. MongoDB is the preferred database for these projects.",
+            proj_cardBody_Nodeapi_txt11: "API Documentation: ",
+            proj_cardBody_Nodeapi_txt11_1: "Each API includes detailed documentation describing available endpoints, request parameters, expected responses, and usage examples.",
+            proj_cardBody_Nodeapi_txt12: "Requirements",
+            proj_cardBody_Nodeapi_txt13: "NodeJS installed on the system.",
+            proj_cardBody_Nodeapi_txt14: "npm (Node Package Manager) installed.",
+            proj_cardBody_Nodeapi_txt15: "Installation",
+            proj_cardBody_Nodeapi_txt16: "Clone this repository to your local machine:",
+            proj_cardBody_Nodeapi_txt18: "Navigate to the folder of the API you want to use (API_Rest_BLOG, API_Rest_RED-SOCIAL, API_Rest_APLICACION-MUSICA).",
+            proj_cardBody_Nodeapi_txt19: "Install dependencies using npm:",
+            proj_cardBody_Nodeapi_txt21: "Configure the database according to the instructions provided in the README.md file of each API.",
+            proj_cardBody_Nodeapi_txt22: "Run the API:",
+            proj_cardBody_Nodeapi_txt24: "Usage",
+            proj_cardBody_Nodeapi_txt25: "Refer to the API documentation for detailed information about available endpoints and how to use them.",
+            proj_cardBody_Nodeapi_txt26: "Contributions",
+            proj_cardBody_Nodeapi_txt27: "Contributions are welcome. If you wish to improve any of the APIs or add new features, feel free to open a pull request.",
+            proj_cardBody_Nodeapi_txt28: "Issues",
+            proj_cardBody_Nodeapi_txt29: "If you encounter any issues or have any suggestions, please open an issue in the repository.",
+            proj_cardBody_Nodeapi_txt30: "License",
+            proj_cardBody_Nodeapi_txt31: "This project is licensed under the MIT License. See the LICENSE file for more details.",
+            proj_cardBody_Nodeapi_txt32: "Thank you for using my APIs!",
             contact_title: "CONTACT",
             contact_btnCurriculum: "MY RESUME",
             contact_subtitleForm: "Enter the data",
@@ -518,9 +596,13 @@ function changeLanguage(language) {
     const proj_cardBody_Nodeapi_txt6_1 = document.getElementById("proj_cardBody_Nodeapi_txt6_1");
     const proj_cardBody_Nodeapi_txt7 = document.getElementById("proj_cardBody_Nodeapi_txt7");
     const proj_cardBody_Nodeapi_txt8 = document.getElementById("proj_cardBody_Nodeapi_txt8");
+    const proj_cardBody_Nodeapi_txt8_1 = document.getElementById("proj_cardBody_Nodeapi_txt8_1");
     const proj_cardBody_Nodeapi_txt9 = document.getElementById("proj_cardBody_Nodeapi_txt9");
+    const proj_cardBody_Nodeapi_txt9_1 = document.getElementById("proj_cardBody_Nodeapi_txt9_1");
     const proj_cardBody_Nodeapi_txt10 = document.getElementById("proj_cardBody_Nodeapi_txt10");
+    const proj_cardBody_Nodeapi_txt10_1 = document.getElementById("proj_cardBody_Nodeapi_txt10_1");
     const proj_cardBody_Nodeapi_txt11 = document.getElementById("proj_cardBody_Nodeapi_txt11");
+    const proj_cardBody_Nodeapi_txt11_1 = document.getElementById("proj_cardBody_Nodeapi_txt11_1");
     const proj_cardBody_Nodeapi_txt12 = document.getElementById("proj_cardBody_Nodeapi_txt12");
     const proj_cardBody_Nodeapi_txt13 = document.getElementById("proj_cardBody_Nodeapi_txt13");
     const proj_cardBody_Nodeapi_txt14 = document.getElementById("proj_cardBody_Nodeapi_txt14");
@@ -685,13 +767,10 @@ function changeLanguage(language) {
         proj_cardBody_Nodeapi_txt14.textContent = translations[language].proj_cardBody_Nodeapi_txt14;
         proj_cardBody_Nodeapi_txt15.textContent = translations[language].proj_cardBody_Nodeapi_txt15;
         proj_cardBody_Nodeapi_txt16.textContent = translations[language].proj_cardBody_Nodeapi_txt16;
-        proj_cardBody_Nodeapi_txt17.textContent = translations[language].proj_cardBody_Nodeapi_txt17;
         proj_cardBody_Nodeapi_txt18.textContent = translations[language].proj_cardBody_Nodeapi_txt18;
         proj_cardBody_Nodeapi_txt19.textContent = translations[language].proj_cardBody_Nodeapi_txt19;
-        proj_cardBody_Nodeapi_txt20.textContent = translations[language].proj_cardBody_Nodeapi_txt20;
         proj_cardBody_Nodeapi_txt21.textContent = translations[language].proj_cardBody_Nodeapi_txt21;
         proj_cardBody_Nodeapi_txt22.textContent = translations[language].proj_cardBody_Nodeapi_txt22;
-        proj_cardBody_Nodeapi_txt23.textContent = translations[language].proj_cardBody_Nodeapi_txt23;
         proj_cardBody_Nodeapi_txt24.textContent = translations[language].proj_cardBody_Nodeapi_txt24;
         proj_cardBody_Nodeapi_txt25.textContent = translations[language].proj_cardBody_Nodeapi_txt25;
         proj_cardBody_Nodeapi_txt26.textContent = translations[language].proj_cardBody_Nodeapi_txt26;
